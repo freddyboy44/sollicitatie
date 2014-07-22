@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'lato_reg';
+  src: url("../fonts/lato-reg-webfont.eot");
+  src: url("../fonts/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-reg-webfont.woff") format("woff"), url("../fonts/lato-reg-webfont.ttf") format("truetype"), url("../fonts/lato-reg-webfont.svg#lato-reg-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato_lig';
+  src: url("../fonts/lato-lig-webfont.eot");
+  src: url("../fonts/lato-lig-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-lig-webfont.woff") format("woff"), url("../fonts/lato-lig-webfont.ttf") format("truetype"), url("../fonts/lato-lig-webfont.svg#lato-lig-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato_bol';
+  src: url("../fonts/lato-bol-webfont.eot");
+  src: url("../fonts/lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-bol-webfont.woff") format("woff"), url("../fonts/lato-bol-webfont.ttf") format("truetype"), url("../fonts/lato-bol-webfont.svg#lato-reg-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  color: #022e5f;
+}
+.navbar {
+  background-color: #ffffff;
+}
+.nav {
+  font-family: 'lato_bol', arial, sans-serif;
+  font-size: 22px;
+}
+.navbar li {
+  width: 50px;
+}
+.toplogo {
+  text-align: center;
+}
+.bgimage {
+  background: url("../images/home_background.jpg") no-repeat top center;
+}
+.hoofdding {
+  height: 250px;
+  padding-top: 30px;
+}
+.hoofdding a {
+  font-size: 1.3em;
+  padding: 5px;
+  background-color: #363333;
+  color: #ffffff;
+}
+h1 {
+  font-size: 2.2em;
+  color: #fff;
+  text-shadow: 1px 1px 2px #575757;
+}
+h2 {
+  font-size: 1.6em;
+}
+.tekst {
+  font-size: 0.7em;
+  text-overflow: ellipsis;
+}
+.blok {
+  height: 170px;
+  padding: 10px 10px;
+  position: relative;
+  overflow: hidden;
+}
+.extragroot {
+  height: 530px;
+}
+.groot {
+  height: 350px;
+}
+.donkergrijs {
+  background-color: #363333;
+  color: #ffffff;
+}
+.nopadding {
+  padding: 0;
+}
+.wit {
+  background-color: #FFF;
+}
