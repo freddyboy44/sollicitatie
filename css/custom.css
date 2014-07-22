@@ -89,7 +89,10 @@ h2 {
 .wit {
   background-color: #FFF;
 }
-.row.no-gutter [class*='col-']:not(:first-child):not(:last-child) {
+.nopaddingright {
+  padding-right: 0px;
+}
+.row.no-gutter [class*='col-']:not(:first-child):not(:last-child):not('col-md-12') {
   padding-right: 5px;
   padding-left: 5px;
 }
