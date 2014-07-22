@@ -3,6 +3,8 @@
 @blokgrootte: 170px;
 @paddingblok: 10px;
 @hoofddinggrootte: 400px;
+@streepkleur: #022e5f;
+@navbarhoogte: 125px;
 
 @font-face {
   font-family: 'lato_reg';
@@ -45,21 +47,27 @@ a {
 	color: #022e5f
 }
 
-.navbar {
-	background-color: @white;
-}
 
 .nav {
 	font-family: 'lato_bol', arial, sans-serif;
   	font-size: 22px;
+  	background-color: @white;
+	height: @navbarhoogte;
 }
 
-.navbar li {
-	width: 50px;
+.nav li {
+	border-left: 1px solid @streepkleur;
+	margin-top : 25px;
+	padding: 0px 10px;
+}
+
+.nav li:first-child {
+	border-left: 0px;
 }
 
 .toplogo {
-	text-align: 	center;
+	text-align: center;
+	padding-top: 10px;
 }
 
 .bgimage {
@@ -86,6 +94,12 @@ h1 {
 
 h2 {
 	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.1em;
+	margin-top: 0px;
+	font-family : 'lato_bol';
 }
 
 .tekst {
@@ -140,4 +154,45 @@ h2 {
 /* remove left padding from first column */
 .row.no-gutter [class*='col-']:last-child  {
   padding-left:5px;
+}
+
+footer {
+	font-size:0.8em;
+	padding-top: 20px;
+}
+
+.linksblok {
+	float: left;
+	padding-right:30px;
+}
+
+.linksblok > a { // zonder het groterdanteken worden alle links bold, nu enkel de eerste
+	font-family : 'lato_bol';
+}
+
+.adres {
+	padding-right:30px;
+	color: #022e5f;
+	float: left; // anders komen de gevens onder de vorige div
+}
+
+.linksblok li {
+	list-style: none;
+}
+.linksblok ul {
+	padding: 0px;
+}
+
+.socialmedia {
+	float: right;
+	text-align: right;
+}
+
+.top-nav {
+	margin-top: 10px;
+}
+
+.taalbar {
+	float:right;
+	clear:left; 
 }

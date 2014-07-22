@@ -25,18 +25,23 @@ body {
 a {
   color: #022e5f;
 }
-.navbar {
-  background-color: #ffffff;
-}
 .nav {
   font-family: 'lato_bol', arial, sans-serif;
   font-size: 22px;
+  background-color: #ffffff;
+  height: 125px;
 }
-.navbar li {
-  width: 50px;
+.nav li {
+  border-left: 1px solid #022e5f;
+  margin-top: 25px;
+  padding: 0px 10px;
+}
+.nav li:first-child {
+  border-left: 0px;
 }
 .toplogo {
   text-align: center;
+  padding-top: 10px;
 }
 .bgimage {
   background: url("../images/home_background.jpg") no-repeat top center;
@@ -58,6 +63,11 @@ h1 {
 }
 h2 {
   font-size: 1.6em;
+}
+h3 {
+  font-size: 1.1em;
+  margin-top: 0px;
+  font-family: 'lato_bol';
 }
 .tekst {
   font-size: 0.9em;
@@ -103,4 +113,37 @@ h2 {
 /* remove left padding from first column */
 .row.no-gutter [class*='col-']:last-child {
   padding-left: 5px;
+}
+footer {
+  font-size: 0.8em;
+  padding-top: 20px;
+}
+.linksblok {
+  float: left;
+  padding-right: 30px;
+}
+.linksblok > a {
+  font-family: 'lato_bol';
+}
+.adres {
+  padding-right: 30px;
+  color: #022e5f;
+  float: left;
+}
+.linksblok li {
+  list-style: none;
+}
+.linksblok ul {
+  padding: 0px;
+}
+.socialmedia {
+  float: right;
+  text-align: right;
+}
+.top-nav {
+  margin-top: 10px;
+}
+.taalbar {
+  float: right;
+  clear: left;
 }
