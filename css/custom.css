@@ -21,9 +21,20 @@
 }
 body {
   background-color: #ffffff;
+  font-family: 'lato_reg';
+  font-size: 14px;
+  line-height: 16px;
 }
 a {
   color: #022e5f;
+}
+.readmore {
+  background-color: #5592ce;
+  padding: 4px 8px;
+  color: #d8d6d6;
+}
+.readmore:hover {
+  color: #d8d6d6;
 }
 .nav {
   font-family: 'lato_bol', arial, sans-serif;
@@ -56,13 +67,21 @@ a {
   background-color: #363333;
   color: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0px;
+  font-family: 'lato_bol';
+}
 h1 {
   font-size: 2.2em;
   color: #fff;
   text-shadow: 1px 1px 2px #575757;
 }
 h2 {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 h3 {
   font-size: 1.1em;
@@ -71,9 +90,8 @@ h3 {
 }
 .tekst {
   font-size: 0.9em;
-  text-overflow: ellipsis;
   margin-bottom: 10px;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 .blok {
   background-color: #ffffff;
@@ -91,7 +109,7 @@ h3 {
 }
 .donkergrijs {
   background-color: #363333;
-  color: #ffffff;
+  color: #d8d6d6;
 }
 .nopadding {
   padding: 0;
@@ -102,18 +120,18 @@ h3 {
 .nopaddingright {
   padding-right: 0px;
 }
-.row.no-gutter [class*='col-']:not(:first-child):not(:last-child):not('col-md-12') {
-  padding-right: 5px;
-  padding-left: 5px;
+/*.row.no-gutter [class*='col-']:not(:first-child):not(:last-child):not('col-md-12') {
+  padding-right:5px;
+  padding-left:5px;
 }
-/* remove right padding from first column */
-.row.no-gutter [class*='col-']:first-child {
-  padding-right: 5px;
+
+.row.no-gutter [class*='col-']:first-child  {
+  padding-right:5px;
 }
-/* remove left padding from first column */
-.row.no-gutter [class*='col-']:last-child {
-  padding-left: 5px;
-}
+
+.row.no-gutter [class*='col-']:last-child  {
+  padding-left:5px;
+}*/
 footer {
   font-size: 0.8em;
   padding-top: 20px;
@@ -136,6 +154,9 @@ footer {
 .linksblok ul {
   padding: 0px;
 }
+.marginonderaan {
+  margin-bottom: 20px;
+}
 .socialmedia {
   float: right;
   text-align: right;
@@ -146,4 +167,36 @@ footer {
 .taalbar {
   float: right;
   clear: left;
+}
+.nomargins {
+  margin-left: -15px;
+  margin-right: 0px;
+}
+.firstnopadding {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.middlenopadding {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.lastnopadding {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.navbar-nav > li > a:hover {
+  background-color: #022e5f;
+  color: white;
+}
+.linkedin {
+  background: url("../images/linkedin.png") no-repeat center center;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.img-banner {
+  border: 1px solid #ffffff;
+  margin: auto;
+  widows: 100%;
 }
